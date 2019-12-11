@@ -1,6 +1,6 @@
 # Welcome to the dataviz-electricite-conso project!
 
-## This projects aims to visualise data related to the consumption of household energy 
+### This projects aims to visualise data related to the consumption of household energy 
 
 ## Group members : 
 - Lien Que BUI
