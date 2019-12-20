@@ -10,14 +10,17 @@
 
 ## Links of data used in this project : 
 - [link1](https://www.daftlogic.com/information-appliance-power-consumption.htm?fbclid=IwAR2CprTK17Buto7s2V6oMBbvR0rHNA32VXZsre3OrihzcxDb7S_wHO3A8HQ)
-Pour la simulation (bar chart) (reference: https://lifehabitschanger.github.io/)
+Pour la simulation (bar chart) (reference: https://lifehabitschanger.github.io/) (Lien)
 - _[link2](https://data.worldbank.org/indicator/EG.USE.ELEC.KH.PC?end=2018&start=1960&view=chart&fbclid=IwAR1ON7uxiOPY5J1VgFY2_YTK3Rkh44TNi-Ri6glS1WNeUgXcsz1qnLuNqlw)_
 - [link3](https://archive.ics.uci.edu/ml/datasets/individual+household+electric+power+consumption) avec des missing values (faut pre-traitement des donnees)
+
+## Organization du projet (20/12/19)
+Pour la pre-traitement de donnees (supprimer les colonnes inutiles à cause de performance, ajout le colonne du 4eme categorie, rempalcer des valeurs missings par la moyenne ) (Lien) 
 Pour visualization :  
 + line graph dynamique par rapport de temps (5 lignes) (Oreste) 
-  Visualisation pour un jour : fréquence par minutes (24*60 données)  
-  Visualisation pour mois : fréquence par heure (24 * 12 données)  
-  Visualisation de l'année : fréquence par 6 mois ((2010-2006)x2 donnees)  
+  Visualisation pour un jour : fréquence par minutes (24*60 données)  (filtrer par le date+mois+annee)
+  Visualisation pour mois : fréquence par heure (24 * 12 données) (filtrer par l'annee)  
+  Visualisation de l'année : fréquence par 6 mois ((2010-2006)x2 donnees) 
 + pie chart (Luan): rapport par l'annee (differentes entre les 3 categories) (ref: https://dvprojectelisalorrainelucia.github.io/#chart_geo)  
 + Index.html du projet (Nour)
 
