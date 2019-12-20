@@ -13,4 +13,7 @@
 Pour la simulation (bar chart) (reference: https://lifehabitschanger.github.io/)
 - _[link2](https://data.worldbank.org/indicator/EG.USE.ELEC.KH.PC?end=2018&start=1960&view=chart&fbclid=IwAR1ON7uxiOPY5J1VgFY2_YTK3Rkh44TNi-Ri6glS1WNeUgXcsz1qnLuNqlw)_
 - [link3](https://archive.ics.uci.edu/ml/datasets/individual+household+electric+power+consumption)
-Pour visualization dynamique (ou line graph, pie chart,...)
+Pour visualization :
++ dynamique par rapport de temps (chaque minuite)
++ line graph par rapport de temps (chaque mois)
++ pie chart: rapport par l'annee (chaque annee)
