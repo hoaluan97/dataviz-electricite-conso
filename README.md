@@ -16,7 +16,7 @@ Pour la simulation (bar chart) (reference: https://lifehabitschanger.github.io/)
 Pour visualization :
 + dynamique par rapport de temps (chaque minute avec des icones)
 + line graph par rapport de temps (chaque annee; 4 lines; les changements dans l'ete et l'hiver)
-+ pie chart: rapport par l'annee (differentes entre les 3 categories)
++ pie chart: rapport par l'annee (differentes entre les 3 categories) (ref: https://dvprojectelisalorrainelucia.github.io/#chart_geo)
 
 ## Comparaisons possibles :
 Une année par rapport à la moyenne des années.
