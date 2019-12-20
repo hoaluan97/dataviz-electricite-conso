@@ -15,5 +15,8 @@ Pour la simulation (bar chart) (reference: https://lifehabitschanger.github.io/)
 - [link3](https://archive.ics.uci.edu/ml/datasets/individual+household+electric+power+consumption)
 Pour visualization :
 + dynamique par rapport de temps (chaque minute avec des ico6nes)
-+ line graph par rapport de temps (chaque mois)
-+ pie chart: rapport par l'annee (chaque annee)
++ line graph par rapport de temps (chaque annee; 4 lines; les changements dans l'ete et l'hiver)
++ pie chart: rapport par l'annee (differentes entre les 3 categories)
+
+## Comparaisons possibles :
+Une année par rapport à la moyenne des années.
