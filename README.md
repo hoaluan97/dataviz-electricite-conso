@@ -14,6 +14,25 @@ Pour la simulation (bar chart) (reference: https://lifehabitschanger.github.io/)
 - _[link2](https://data.worldbank.org/indicator/EG.USE.ELEC.KH.PC?end=2018&start=1960&view=chart&fbclid=IwAR1ON7uxiOPY5J1VgFY2_YTK3Rkh44TNi-Ri6glS1WNeUgXcsz1qnLuNqlw)_
 - [link3](https://archive.ics.uci.edu/ml/datasets/individual+household+electric+power+consumption) avec des missing values (faut pre-traitement des donnees)
 
+## Description about Dataset
+1.date: Date in format dd/mm/yyyy
+
+2.time: time in format hh:mm:ss
+
+3.global_active_power: household global minute-averaged active power (in kilowatt). Global active power is the power consumed by appliances other than the appliances mapped to Sub Meters. Global active power is the real power consumption i.e. the power consumed by electrical appliances other than the sub metered appliances.It is basically called wattfull power.
+
+4.global_reactive_power: household global minute-averaged reactive power (in kilowatt). Global reactive power is the power which bounces back and froth without any usage or leakage. It is the imaginary power consumption. It is basically called wattless power.
+
+5.voltage: minute-averaged voltage (in volt)
+
+6.global_intensity: household global minute-averaged current intensity (in ampere). Intensity is magnitude of the power consumed. Also called as strength of current.
+
+7.sub_metering_1: energy sub-metering No. 1 (in watt-hour of active energy). It corresponds to the kitchen, containing mainly a dishwasher, an oven and a microwave (hot plates are not electric but gas powered).
+
+8.sub_metering_2: energy sub-metering No. 2 (in watt-hour of active energy). It corresponds to the laundry room, containing a washing-machine, a tumble-drier, a refrigerator and a light.
+
+9.sub_metering_3: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.
+
 ## Organization du projet (20/12/19)
 Pour la pre-traitement de donnees (supprimer les colonnes inutiles à cause de performance, ajout le colonne du 4eme categorie, rempalcer des valeurs missings par la moyenne ) (Lien) 
 Pour visualization :  
