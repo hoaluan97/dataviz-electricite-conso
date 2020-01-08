@@ -1,4 +1,4 @@
-"Year","Month","Day_of_month","Global_active_power (Sum)","Sub_metering_1 (Sum)","Sub_metering_2 (Sum)","Sub_metering_3 (Sum)","Sub_metering_other (Sum)"
+"Year","Month","Day_of_month","Global_active_power_Sum","Sub_metering_1_Sum","Sub_metering_2_Sum","Sub_metering_3_Sum","Sub_metering_other_Sum"
 2006,12,16,1209.176,0,546,4926,14680.934
 2006,12,17,3390.46,2033,4187,13341,36946.672
 2006,12,18,2203.826,1063,2621,14018,19028.44

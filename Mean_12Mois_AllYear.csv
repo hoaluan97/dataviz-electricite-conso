@@ -1,4 +1,4 @@
-"Month","Global_active_power (Mean)","Sub_metering_1 (Mean)","Sub_metering_2 (Mean)","Sub_metering_3 (Mean)","Sub_metering_other (Mean)"
+"Month","Global_active_power_Mean","Sub_metering_1_Mean","Sub_metering_2_Mean","Sub_metering_3_Mean","Sub_metering_other_Mean"
 1,1.456,1.401,1.544,7.771,13.545
 2,1.3,1.132,1.387,7.587,11.567
 3,1.23,1.265,1.658,6.923,10.65
