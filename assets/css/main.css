@@ -2643,3 +2643,25 @@ input, select, textarea {
 			}
 
 	}
+	.arc path {
+        stroke: #fff;
+    }
+
+    .legend rect {
+        fill: white;
+        stroke: black;
+    }
+  .hidden {
+            display: none;
+        }
+
+        div.tooltip {
+            color: #000000;
+            background-color: #ffffff;
+            padding: .5em;
+            text-shadow: #f5f5f5 0 1px 0;
+            border-radius: 2px;
+            opacity: 0.9;
+            position: absolute;
+            font-size: 13px;
+        }

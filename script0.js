@@ -6,7 +6,7 @@ var keys = ["cuisine", "laverie", "climatiseur", "autre"]
 
         var color = d3.scaleOrdinal()
             .domain(keys)
-            .range(d3.schemeBrBG[6]);
+            .range(['#f7b7bf', '#bef9c5', '#c1c3fe', '#b9ecfd']);
 
         var arc = d3.arc()
             .outerRadius(radius - 10)
@@ -16,17 +16,17 @@ var keys = ["cuisine", "laverie", "climatiseur", "autre"]
             .sort(null)
             .value(function (d) { return d.value; });
 
-        var svg = d3.select("body").append("svg")
+        var svg = d3.select("#visual0").append("svg")
             .attr("width", width)
             .attr("height", height)
             .append("g")
             .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
-var tooltip = d3.select('body').append('div')
+var tooltip = d3.select('visual0').append('div')
             .attr('class', 'hidden tooltip');
 
 
-        d3.csv("avg-consum-by-year.csv").then(function (data) {
+        d3.csv("https://raw.githubusercontent.com/hoaluan97/dataviz-electricite-conso/master/avg-consum-by-year.csv", function (data) {
 
             var updatePie = function (data) {
 
@@ -133,7 +133,7 @@ var tooltip = d3.select('body').append('div')
             d3.select("select")
                 .on("change", dropdownChange);
 
-        });
+        })
 
         function arcTween(a) {
             var i = d3.interpolate(this._current, a);
@@ -142,3 +142,4 @@ var tooltip = d3.select('body').append('div')
                 return arc(i(t));
             };
         }
+    
