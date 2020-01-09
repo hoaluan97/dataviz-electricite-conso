@@ -2664,4 +2664,8 @@ input, select, textarea {
             opacity: 0.9;
             position: absolute;
             font-size: 13px;
-        }
+		}
+	#d3-dropdown{
+		display: flex; 
+		justify-content: center;
+	}
