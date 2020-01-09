@@ -50,8 +50,9 @@ var tooltip = d3.select('visual0').append('div')
                     .attr("class", "arc")
                     .style("fill", function (d) { return color(d.value); })
                     .attr("d", arc)
-                    .each(function (d) { this._current = d; })
-                .on('mousemove', function (d) {
+                    //.each(function (d) { this._current = d; })
+                    .on('mousemove', function (d) {
+                        console.log("la")
                         // on recupere la position de la souris
                         var mousePosition = d3.mouse(this);
                         // on affiche le toolip

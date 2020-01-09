@@ -340,7 +340,7 @@ function update3(){
       }
 
       // If user double click, reinitialize the chart
-      svg.on("dblclick",function(){
+      svg.on("dblclickS",function(){
         x.domain(d3.extent(data, function(d) { return d.date; }))
         xAxis.transition().call(d3.axisBottom(x))
         if(checkline1){
