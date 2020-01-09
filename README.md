@@ -51,5 +51,5 @@ For the simulation (bar chart) (reference: https://lifehabitschanger.github.io/)
 - Pie chart (Luan): report by years (differences between 4 categories) (ref: https://dvprojectelisalorrainelucia.github.io/#chart_geo)  
 - Index.html of project (Nour)
 
-## Comparaisons possibles :  
-Une année par rapport à la moyenne des années.  
+## Possible Comparison :  
+A year by mean of years
