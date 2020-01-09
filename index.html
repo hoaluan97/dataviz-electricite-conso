@@ -64,7 +64,11 @@
 			<article class="container box style2">
 				<header>
 					<h2>Concept de la Visualisation</h2>
-					<p>blabla</p></br></br>
+					<p>Les graphes proposents une Line Chart pour chaque consommation en Wh des différentes pièces. Ainsi qu'un Pie Chart récapitulatif.</p><br>
+					<p style="font-size: smaller;">Cuisine:(en watt-hour) : contient principalement un lave-vaisselle, un four et un micro-onde (les plaques ne sont pas électrique mais au gaz)<br>
+
+						Laverie: (en watt-hour) : contient le lave-linge, un sèche linge, un refrigirateur et une lampe. <br>
+						Climatiseur: (en watt-hour) : contient un chauffe eau et un climatiseur.</p>
 					
 				</header>
 				
@@ -117,14 +121,15 @@
 					</div>
 					<div>
 						<div style="display: flex; justify-content: center;"></br><input class = "button " name="updateButton" type="button" value="Update" onclick="update()"></div>
-						<hr/>			
+						<hr/>
+						<p style="font-size: smaller;"> Ce graphe est particulier. Il represente la consommation quotidienne qui n'appartient pas aux pièces présentées. Soit la consommation quotidienne globale de la maison soustraite aux trois pièces.</p>			
 							
 					</div>
 				</section>
 				<section>
 					<header>
-						<h3>consommation quotidienne + la moyenne</h3>
-						<p>Veuillez préciser la date et la pièce</p>
+						<h3>consommation quotidienne</h3>
+						<p>Veuillez préciser la date et les pièces</p>
 					</header>
 					<div style="display: flex; justify-content: center;"><input id = "date2" type="text" name="date" value="1/1/2007" style="height: 30px; width: 130px;">
 						<input type="checkbox" id="myCheckbox1"> <label for="myCheckbox1">Cuisine</label>
@@ -136,7 +141,8 @@
 					</div>
 					<div>
 						<div style="display: flex; justify-content: center;"></br><input class = "button " name="updateButton" type="button" value="Update" onclick="update2()"></div>
-						<hr/>			
+						<hr/>	
+						<p style="font-size: smaller;">Ce graphe représente la consommation quotidienne de chaque pièce (aréas) avec leurs moyennes respectives sur le mois (lines)</p>		
 							
 					</div>
 				</section>
@@ -144,8 +150,8 @@
 			<article class="container box style3">
 				<section>
 					<header>
-						<h3>consommation totale par mois</h3>
-						<p>Veuillez préciser la date et la pièce</p>
+						<h3>consommation totale mensuelle</h3>
+						<p>Veuillez préciser la date et les pièces</p>
 					</header>
 					<div style="display: flex; justify-content: center;"><input id = "date3" type="text" name="date" value="1/1/2007" style="height: 30px; width: 130px;">
 						<input type="checkbox" id="myCheckbox4"> <label for="myCheckbox4">Cuisine</label>
@@ -155,7 +161,8 @@
 					<div id="visual3" style="display: flex; justify-content: center;"></div>
 					<div>
 						<div style="display: flex; justify-content: center;"></br><input class = "button " name="updateButton" type="button" value="Update" onclick="update3()"></div>
-						<hr/>			
+						<hr/>	
+						<p style="font-size: smaller;">Ce graphe représente la consommation mensuelle de chaque pièce (aréas) avec leurs moyennes respectives sur l'année (lines)</p>		
 							
 					</div>
 				</section>
@@ -163,8 +170,8 @@
 			<article class="container box style3">
 				<section>
 					<header>
-						<h3>consommation moyenne par an</h3>
-						<p>Veuillez préciser la date et la pièce</p>
+						<h3>Consommation moyenne annuelle</h3>
+						<p>Veuillez préciser la date et les pièces</p>
 					</header>
 					<div style="display: flex; justify-content: center;"><input id = "date4" type="text" name="date" value="1/1/2007" style="height: 30px; width: 130px;">
 						<input type="checkbox" id="myCheckbox7"> <label for="myCheckbox7">Cuisine</label>
@@ -174,7 +181,8 @@
 					<div id="visual4" style="display: flex; justify-content: center;" ></div>
 					<div>
 						<div style="display: flex; justify-content: center;"></br><input class = "button " name="updateButton" type="button" value="Update" onclick="update4()"></div>
-						<hr/>			
+						<hr/>	
+						<p style="font-size: smaller;"> Ce graphe représente la consommation anuelle de chaque pièce (aréas) avec leurs moyennes respectives sur toutes les années (lines)</p>		
 							
 					</div>
 			</article>
