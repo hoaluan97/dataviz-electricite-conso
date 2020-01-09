@@ -37,14 +37,19 @@ For the simulation (bar chart) (reference: https://lifehabitschanger.github.io/)
 [link drive - in compressed file data.rar](https://drive.google.com/drive/folders/1DabjyJMGjsyqjZDjEPxz8-r9sdVCDExh)
 
 ## Project rganization (20/12/19)
-Pour la pre-traitement de donnees (supprimer les colonnes inutiles à cause de performance, ajout le colonne du 4eme categorie, rempalcer des valeurs missings par la moyenne ) (Lien) 
-Pour visualization :  
-+ line graph dynamique par rapport de temps (5 lignes) (Oreste) 
-  Visualisation pour un jour : fréquence par minutes (24*60 données)  (filtrer par le date+mois+annee)
-  Visualisation pour mois : fréquence par heure (24 * 12 données) (filtrer par l'annee)  
-  Visualisation de l'année : fréquence par 6 mois ((2010-2006)x2 donnees) 
-+ pie chart (Luan): report by years (differences between 3 categories) (ref: https://dvprojectelisalorrainelucia.github.io/#chart_geo)  
-+ Index.html of project (Nour)
 
-## Comparaisons possibles :  
-Une année par rapport à la moyenne des années.  
+### Data pre-processing (Lien) 
+- Removing unnecessary columns a
+- Adding 4th categorie column
+- Replacing the missing values by the column's average value
+
+### Visualization:  
+- Dynamic line graph by time (5 lines) (Oreste)
+  + Visualisation by day : frequency by minute (24*60 data points)  (filter by date+month+year)
+  + Visualisation by month  : frequency by hour (24 * 12 data points) (filter by year)  
+  + Visualisation by year : frequency par 6 months ((2010-2006)x2 data points) 
+- Pie chart (Luan): report by years (differences between 4 categories) (ref: https://dvprojectelisalorrainelucia.github.io/#chart_geo)  
+- Index.html of project (Nour)
+
+## Possible Comparison :  
+A year by mean of years
