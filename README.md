@@ -7,7 +7,7 @@
 - [Course] (https://lyondataviz.github.io/teaching/lyon1-m2/2019/)
 - [University Claude Bernard Lyon 1] (https://www.univ-lyon1.fr/)
 - [Project requirement] (https://lyondataviz.github.io/teaching/lyon1-m2/2019/projets.html
-### Formation
+
 - [Master Information Technology (Data Science)] (http://master-info.univ-lyon1.fr/DS/)
 - [Master Information Technology (Artificial Intelligence)] (http://master-info.univ-lyon1.fr/IA/)
 
@@ -51,12 +51,12 @@
 - Calculation of average values by days, months, years for each category
 
 ### Visualization:  
-- Dynamic line graph by time (5 lines) (Oreste)
+- Dynamic line graph by time (5 Lines) (Oreste)
   + Visualisation by day : frequency by minute (24*60 data points)  (filter by date+month+year)
   + Visualisation by month  : frequency by hour (24 * 12 data points) (filter by year)  
   + Visualisation by year : frequency par 6 months ((2010-2006)x2 data points) 
-- Pie chart (Luan): report by years (differences between 4 categories) (ref: https://dvprojectelisalorrainelucia.github.io/#chart_geo)  
-- Index.html of project (Nour)
+- Line chart (Luan): report by years (differences between 4 categories) (ref: https://dvprojectelisalorrainelucia.github.io/#chart_geo)  
+- Assembling graphes + design (Nour)
 
 ## Possible Comparison :  
 A year by mean of years
