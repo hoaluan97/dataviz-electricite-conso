@@ -2644,21 +2644,36 @@ input::-moz-focus-inner {
         fill: white;
         stroke: black;
     }
-  .hidden {
-            display: none;
-        }
 
-        div.tooltip {
-            color: #000000;
-            background-color: #ffffff;
-            padding: .5em;
-            text-shadow: #f5f5f5 0 1px 0;
-            border-radius: 2px;
-            opacity: 0.9;
-            position: absolute;
-            font-size: 13px;
-		}
-	#d3-dropdown{
-		display: flex; 
-		justify-content: center;
+	.axis path,
+	.axis lineLuan {
+	  fill: none;
+	  stroke: #000;
+	  shape-rendering: crispEdges;
 	}
+	
+	.lineLuan {
+	  fill: none;
+	  stroke: steelblue;
+	  stroke-width: 2px;
+	}
+	
+	#visual0 {
+	  width: 100%;
+	  height: 100%;
+	  position: absolute;
+	}
+	.hiddenvisu0 {
+		display: none;
+	}
+	  div.tooltip0 {
+		color: #000;
+		background-color: #fffde0;
+		padding: .5em;
+		text-shadow: #f5f5f5 0 1px 0;
+		border-radius: 2px;
+		opacity: 0.9;
+		position: absolute;
+		font-size: 15px;
+	}
+	

@@ -13,6 +13,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
 		<script src="https://d3js.org/d3.v4.min.js"></script>
 	</head>
 	<body class="is-preload">
@@ -66,7 +67,7 @@
 			<article class="container box style2">
 				<header>
 					<h2>Concept de la Visualisation</h2>
-					<p>Les graphes proposents une Line Chart pour chaque consommation en Wh des différentes pièces. Ainsi qu'un Pie Chart récapitulatif.</p><br>
+					<p>Les graphes proposents une Line Chart pour chaque consommation en Wh des différentes pièces. Ainsi qu'un Line chart récapitulatif.</p><br>
 					<p style="font-size: smaller;">Cuisine:(en watt/heure) : contient principalement un lave-vaisselle, un four et un micro-onde (les plaques ne sont pas électrique mais au gaz)<br>
 
 						Laverie: (en watt/heure) : contient le lave-linge, un sèche linge, un refrigirateur et une lampe. <br>
@@ -168,25 +169,17 @@
 						<hr/>
 					</div>
 			</article>
-			<article class="container box style3">
+			<article class="container box style3" style="height: 600px !important;">
 				<section>
 					<header>
 						<h3>consommation moyenne par an</h3>
-						<p>Veuillez préciser l'année</p>
 					</header>
 					<div>
-						<select id="d3-dropdown">
-							<option value="0">2006</option>
-							<option value="1">2007</option>
-							<option value="2">2008</option>
-							<option value="3">2009</option>
-							<option value="4">2010</option>
-						</select>
-						<div id="visual0" ></div>
-					</div>
-					<div>
+					<div style="display: flex; justify-content: center;">
+						<svg id="visual0" ></svg>
 						<hr/>
 					</div>
+				</div>
 				</section>
 			</article>
 			

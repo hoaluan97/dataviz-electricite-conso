@@ -60,7 +60,6 @@ function update3(){
     // Now I can use this dataset:
     function(data) {
       // Add X axis --> it is a date format
-      console.log(data)
       // This allows to find the closest X index of the mouse:
               var bisect = d3.bisector(function(d) { return d.date; }).left;
     
