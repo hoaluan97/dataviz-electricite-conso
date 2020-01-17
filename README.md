@@ -2,6 +2,14 @@
 
 ### This projects aims to visualise data related to the consumption of household energy 
 
+## Links to requirements and courses]
+- [Course] (https://lyondataviz.github.io/teaching/lyon1-m2/2019/)
+- [University Claude Bernard Lyon 1] (https://www.univ-lyon1.fr/)
+- [Project requirement] (https://lyondataviz.github.io/teaching/lyon1-m2/2019/projets.html
+### Formation
+- [Master Information Technology (Data Science)] (http://master-info.univ-lyon1.fr/DS/)
+- [Master Information Technology (Artificial Intelligence)] (http://master-info.univ-lyon1.fr/IA/)
+
 ## Group members : 
 - Lien Que BUI
 - Oreste GAFILIGI
@@ -9,10 +17,7 @@
 - Nour MEDJEDEL
 
 ## Links of data used in this project : 
-- [link1](https://www.daftlogic.com/information-appliance-power-consumption.htm?fbclid=IwAR2CprTK17Buto7s2V6oMBbvR0rHNA32VXZsre3OrihzcxDb7S_wHO3A8HQ)
-For the simulation (bar chart) (reference: https://lifehabitschanger.github.io/) (Lien)
-- _[link2](https://data.worldbank.org/indicator/EG.USE.ELEC.KH.PC?end=2018&start=1960&view=chart&fbclid=IwAR1ON7uxiOPY5J1VgFY2_YTK3Rkh44TNi-Ri6glS1WNeUgXcsz1qnLuNqlw)_
-- [link3](https://archive.ics.uci.edu/ml/datasets/individual+household+electric+power+consumption) with missing values (data pre-processing needed)
+- [link](https://archive.ics.uci.edu/ml/datasets/individual+household+electric+power+consumption) with missing values (data pre-processing needed)
 
 ## Dataset description
 1.date: Date in format dd/mm/yyyy
@@ -39,8 +44,8 @@ For the simulation (bar chart) (reference: https://lifehabitschanger.github.io/)
 ## Project rganization (20/12/19)
 
 ### Data pre-processing (Lien) 
-- Removing unnecessary columns a
-- Adding 4th categorie column
+- Removing unnecessary columns
+- Adding 4th category column
 - Replacing the missing values by the column's average value
 
 ### Visualization:  
