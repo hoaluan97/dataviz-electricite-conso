@@ -3,7 +3,7 @@
 
 ### This projects aims to visualise data related to the consumption of household energy 
 
-## Links to requirements and courses]
+## Links to requirements and courses
 - [Course] (https://lyondataviz.github.io/teaching/lyon1-m2/2019/)
 - [University Claude Bernard Lyon 1] (https://www.univ-lyon1.fr/)
 - [Project requirement] (https://lyondataviz.github.io/teaching/lyon1-m2/2019/projets.html
@@ -42,12 +42,13 @@
 ## Preprocessed data
 [link drive - in compressed file data.rar](https://drive.google.com/drive/folders/1DabjyJMGjsyqjZDjEPxz8-r9sdVCDExh)
 
-## Project rganization (20/12/19)
+## Project Organization (20/12/19)
 
 ### Data pre-processing (Lien) 
 - Removing unnecessary columns
 - Adding 4th category column
 - Replacing the missing values by the column's average value
+- Calculation of average values by days, months, years for each category
 
 ### Visualization:  
 - Dynamic line graph by time (5 lines) (Oreste)
