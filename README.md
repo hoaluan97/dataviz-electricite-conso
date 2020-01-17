@@ -1,4 +1,5 @@
 # Welcome to the dataviz-electricite-conso project!
+![Representative Image](dataviz.png)
 
 ### This projects aims to visualise data related to the consumption of household energy 
 
